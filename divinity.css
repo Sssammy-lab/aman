@@ -1,0 +1,194 @@
+
+body{
+    background-color: rgb(25, 177, 101);
+}
+
+.header{
+    text-align: center;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    color:rgb(14, 101, 214); 
+    font-size:xx-large; 
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif"
+}
+
+.welcome{
+    background-image: url(d_images/a.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 900px, 100px;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    width: fit-content;
+    height: 150px;
+    border-radius: 20px;
+    position: absolute;
+    left: 20%;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+
+.fv{
+    padding-top: 20px;
+    border-radius: 20px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 3%;
+    background-color: rgb(26, 24, 24);
+    background-image: url(d_images/fv.jpg);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+}
+
+:hover.fv{
+    transform: scale(1.1);
+}
+
+.dairy{
+    padding-top: 20px;
+    border-radius: 20px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 27%;
+    background-color: rgb(26, 24, 24);
+    background-image: url(d_images/dairy.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+}
+
+:hover.dairy{
+    transform: scale(1.1);
+}
+
+.bathroom_supplies{
+    padding-top: 20px;
+    border-radius: 20px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 51%;
+    background-color: rgb(26, 24, 24);
+    background-image: url(d_images/bathroom_s.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+}
+
+:hover.bathroom_supplies{
+    transform: scale(1.1);
+}
+
+.cutlery{
+    padding-top: 20px;
+    border-radius: 20px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    background-color: rgb(26, 24, 24);
+    background-image: url(d_images/cutlery.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+}
+
+:hover.cutlery{
+    transform: scale(1.1);
+}
+
+.buy{
+    position: absolute;
+    top: 80%;
+    border-radius: 10px;
+    border-width: 4px;
+    background-color:transparent;
+    color: rgb(62, 148, 101);
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: fit-content;
+    backdrop-filter: 30px;
+}
+
+:hover.buy{
+    background-color: green;
+    color: rgb(177, 22, 22);
+}
+
+.footer{
+    background-color: black;
+    width: 100%;
+    height: fit-content;
+    position: absolute;
+    top: 120%;
+}
+
+.about{
+    position: absolute;
+    top: 120%;
+    height: 400px;
+    width: 700px;
+    text-align: left;
+    padding-bottom: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding-right: 20px;
+    padding-left: 100px;
+    padding-top: 40px;
+    padding-top: 10px;
+}
+
+.contact{
+    position: absolute;
+    top: 120%;
+    left:30%;
+    height: 400px;
+    width: 700px;
+    text-align: left;
+    padding-bottom: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding-right: 20px;
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-top: 10px;
+}
+
+.location{
+    position: absolute;
+    top: 120%;
+    left:65%;
+    height: 400px;
+    width: 700px;
+    text-align: left;
+    padding-bottom: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 40px;
+    padding-top: 10px;
+}
